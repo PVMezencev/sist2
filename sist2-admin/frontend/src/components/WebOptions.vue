@@ -3,7 +3,7 @@
     <h4>{{ $t("webOptions.title") }}</h4>
     <b-card>
       <label>{{ $t("webOptions.lang") }}</label>
-      <b-form-select v-model="options.lang" :options="['en', 'fr', 'zh-CN', 'pl', 'de']"
+      <b-form-select v-model="options.lang" :options="['en', 'fr', 'zh-CN', 'pl', 'de', 'ru']"
                      @change="update()"></b-form-select>
 
       <label>{{ $t("webOptions.bind") }}</label>

@@ -32,7 +32,7 @@ Vue.use(VueI18n);
 Vue.use(VueRouter);
 
 const i18n = new VueI18n({
-    locale: "en",
+    locale: "ru",
     messages: messages
 });
 

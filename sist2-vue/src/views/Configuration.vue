@@ -243,6 +243,7 @@ export default {
                 {value: "zh-CN", text: this.$t("lang.zh-CN")},
                 {value: "de", text: this.$t("lang.de")},
                 {value: "pl", text: this.$t("lang.pl")},
+                {value: "ru", text: this.$t("lang.ru")},
             ],
             queryModeOptions: [
                 {value: "simple", text: this.$t("queryMode.simple")},

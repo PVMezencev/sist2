@@ -96,6 +96,7 @@ export default {
             fr: "Français",
             pl: "Polski",
             "zh-CN": "简体中文",
+            ru: "Русский",
         },
         displayMode: {
             grid: "Grid",
@@ -277,6 +278,7 @@ export default {
             fr: "Français",
             pl: "Polski",
             "zh-CN": "简体中文",
+            ru: "Русский",
         },
         displayMode: {
             grid: "Gitter",
@@ -453,6 +455,7 @@ export default {
             fr: "Français",
             pl: "Polski",
             "zh-CN": "简体中文",
+            ru: "Русский",
         },
         displayMode: {
             grid: "Grille",
@@ -629,6 +632,7 @@ export default {
             fr: "Français",
             pl: "Polski",
             "zh-CN": "简体中文",
+            ru: "Русский",
         },
         displayMode: {
             grid: "网格",
@@ -808,6 +812,7 @@ export default {
             fr: "Français",
             pl: "Polski",
             "zh-CN": "简体中文",
+            ru: "Русский",
         },
         displayMode: {
             grid: "Siatka",
@@ -895,6 +900,183 @@ export default {
             auto: "Automatycznie",
             repoFetchError: "Nie udało się uzyskać listy modeli. Zobacz konsolę przeglądarki, aby uzyskać więcej informacji.",
             repoFetchErrorTitle: "Nie udało się pobrać repozytoriów modeli",
+        }
+    },
+    ru: {
+        filePage: {
+            notFound: "Файл не найден"
+        },
+        searchBar: {
+            simple: "Поиск",
+            advanced: "Расширенный поиск",
+            fuzzy: "Неточный"
+        },
+        addTag: "Добавить тег",
+        deleteTag: "Удалить",
+        download: "Скачать",
+        and: "и",
+        page: "стр",
+        pages: "стр",
+        mimeTypes: "Типы медиа",
+        tags: "Теги",
+        tagFilter: "Фильтр тегов",
+        forExample: "Например:",
+        embeddingsSearchPlaceholder: "Поиск по эмбеддингам",
+        help: {
+            simpleSearch: "Простой поиск",
+            advancedSearch: "Расширенный поиск",
+            help: "Помощь",
+            term: "<ТЕРМИН>",
+            and: "Оператор И",
+            or: "Оператор ИЛИ",
+            not: "отрицает отдельный термин",
+            quotes: "совпадение точной последовательности слов в кавычках",
+            prefix: "совпадение с любым термином, имеющим заданный префикс (в конце слова)",
+            parens: "группировка выражений",
+            tildeTerm: "совпадение термина с заданным расстоянием редактирования",
+            tildePhrase: "совпадение фразы с заданным количеством допускаемых несовпадающих слов между ними",
+            example1: "Например: <code>\"fried eggs\" +(eggplant | potato) -frittata</code> найдет фразу <i>fried eggs</i> и либо <i>eggplant</i>, либо <i>potato</i>, но исключит результаты, содержащие <i>frittata</i>.",
+            defaultOperator: "Если не указаны <code>+</code> или <code>|</code>, оператором по умолчанию является <code>+</code> (И).",
+            fuzzy: "При включении опции <b>Неточный поиск</b> также возвращаются частичные совпадения на основе 3-грамм.",
+            moreInfoSimple: "Подробнее в <a target=\"_blank\" rel=\"noreferrer\" href=\"//www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-simple-query-string-query.html\">документации Elasticsearch</a>",
+            moreInfoAdvanced: "Документация по режиму расширенного поиска: <a target=\"_blank\" rel=\"noreferrer\" href=\"//www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax\">документация Elasticsearch</a>"
+        },
+        config: "Настройки",
+        configDescription: "Настройки сохраняются в реальном времени для этого браузера.",
+        configReset: "Сбросить настройки",
+        searchOptions: "Параметры поиска",
+        treemapOptions: "Параметры древовидной карты",
+        mlOptions: "Параметры машинного обучения",
+        displayOptions: "Параметры отображения",
+        opt: {
+            lang: "Язык",
+            highlight: "Включить подсветку",
+            fuzzy: "Использовать неточный поиск по умолчанию",
+            searchInPath: "Искать в пути документа",
+            suggestPath: "Включить автодополнение в фильтре пути",
+            fragmentSize: "Размер контекста для подсветки",
+            fragmentCount: "Количество фрагментов с подсветкой",
+            queryMode: "Режим поиска",
+            displayMode: "Отображение",
+            columns: "Количество колонок",
+            treemapType: "Тип древовидной карты",
+            treemapTiling: "Мозаика древовидной карты",
+            treemapColorGroupingDepth: "Глубина группировки цветов (плоская)",
+            treemapColor: "Цвет древовидной карты (каскадная)",
+            treemapSize: "Размер древовидной карты",
+            theme: "Тема",
+            lightboxLoadOnlyCurrent: "Не предзагружать полноразмерные изображения для соседних слайдов в просмотрщике.",
+            slideDuration: "Длительность слайда",
+            resultSize: "Количество результатов на странице",
+            tagOrOperator: "Использовать оператор ИЛИ при указании нескольких тегов.",
+            hideDuplicates: "Скрывать дубликаты на основе контрольной суммы",
+            hideLegacy: "Скрывать уведомление о 'legacyES' Elasticsearch",
+            updateMimeMap: "Обновлять дерево типов медиа в реальном времени",
+            useDatePicker: "Использовать компонент выбора даты вместо ползунка",
+            vidPreviewInterval: "Длительность кадра предпросмотра видео (мс)",
+            simpleLightbox: "Отключить анимации в просмотрщике изображений",
+            showTagPickerFilter: "Отображать панель фильтра тегов",
+            featuredFields: "JavaScript шаблон для выделенных полей. Будет отображаться в результатах поиска.",
+            featuredFieldsList: "Доступные переменные",
+            autoAnalyze: "Автоматически анализировать текст",
+            defaultModel: "Модель по умолчанию",
+            mlRepositories: "Репозитории моделей (по одному на строку)"
+        },
+        queryMode: {
+            simple: "Простой",
+            advanced: "Расширенный"
+        },
+        lang: {
+            en: "Английский",
+            de: "Немецкий",
+            fr: "Французский",
+            pl: "Польский",
+            "zh-CN": "Китайский (упрощенный)",
+            ru: "Русский"
+        },
+        displayMode: {
+            grid: "Сетка",
+            list: "Список"
+        },
+        columns: {
+            auto: "Авто"
+        },
+        treemapType: {
+            cascaded: "Каскадная",
+            flat: "Плоская (компактная)"
+        },
+        treemapSize: {
+            small: "Маленький",
+            medium: "Средний",
+            large: "Большой",
+            xLarge: "Очень большой",
+            xxLarge: "Огромный",
+            custom: "Пользовательский"
+        },
+        treemapTiling: {
+            binary: "Бинарное",
+            squarify: "Квадратизация",
+            slice: "Срез",
+            dice: "Кости",
+            sliceDice: "Срез и кости"
+        },
+        theme: {
+            light: "Светлая",
+            black: "Темная"
+        },
+        hit: "результат",
+        hits: "результатов",
+        details: "Детали",
+        stats: "Статистика",
+        queryTime: "Время запроса",
+        totalSize: "Общий размер",
+        pathBar: {
+            placeholder: "Фильтр по пути",
+            modalTitle: "Выбор пути"
+        },
+        debug: "Отладочная информация",
+        debugDescription: "Информация, полезная для отладки. Если вы столкнулись с ошибками или у вас есть предложения по новым функциям, пожалуйста, создайте новую задачу <a href='https://github.com/sist2app/sist2/issues/new/choose'>здесь</a>.",
+        tagline: "Слоган",
+        toast: {
+            esConnErrTitle: "Ошибка подключения к Elasticsearch",
+            esConnErr: "Модуль web sist2 столкнулся с ошибкой при подключении к Elasticsearch. Подробности в логах сервера.",
+            esQueryErrTitle: "Ошибка запроса",
+            esQueryErr: "Не удалось разобрать или выполнить запрос. Проверьте документацию по расширенному поиску. Подробности в логах сервера.",
+            dupeTagTitle: "Дубликат тега",
+            dupeTag: "Этот тег уже существует для данного документа.",
+            copiedToClipboard: "Скопировано в буфер обмена"
+        },
+        saveTagModalTitle: "Добавить тег",
+        saveTagPlaceholder: "Имя тега",
+        confirm: "Подтвердить",
+        indexPickerPlaceholder: "Выберите индекс",
+        sort: {
+            relevance: "Релевантность",
+            dateAsc: "Дата (старые сначала)",
+            dateDesc: "Дата (новые сначала)",
+            sizeAsc: "Размер (меньшие сначала)",
+            sizeDesc: "Размер (большие сначала)",
+            nameAsc: "Имя (А-Я)",
+            nameDesc: "Имя (Я-А)",
+            random: "Случайно"
+        },
+        d3: {
+            mimeCount: "Распределение количества файлов по типам медиа",
+            mimeSize: "Распределение размера по типам медиа",
+            dateHistogram: "Распределение времени изменения файлов",
+            sizeHistogram: "Распределение размеров файлов"
+        },
+        indexPicker: {
+            selectNone: "Отменить выбор",
+            selectAll: "Выбрать все",
+            selectedIndex: "выбранный индекс",
+            selectedIndices: "выбранных индексов"
+        },
+        ml: {
+            analyzeText: "Анализировать",
+            auto: "Авто",
+            repoFetchError: "Не удалось получить список моделей. Подробности в консоли браузера.",
+            repoFetchErrorTitle: "Не удалось загрузить репозитории моделей"
         }
     }
 }
